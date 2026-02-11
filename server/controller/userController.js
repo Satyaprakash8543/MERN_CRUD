@@ -14,7 +14,7 @@ export const create= async(req,res)=>{
     }
 }
 
-//Get data
+//Get data 
 export const getAll=async (req,res)=>{
     try {
        const userData = await User.find();

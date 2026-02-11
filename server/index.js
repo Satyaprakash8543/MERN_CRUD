@@ -5,6 +5,8 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import route from './routes/userRoute.js';
 
+
+//by=>Thewebsources
 const app=express();
 app.use(bodyParser.json());
 app.use(cors());
